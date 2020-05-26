@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Premier League</title>
+    <meta name="description" content="Information English Premier League" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="images/icon/icon.png">
+    <link rel="apple-touch-icon" href="images/icon/icon.png">
+    <meta name="theme-color" content="#1565c0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div id="content">
+    <!-- Navigasi -->
+    <nav class="blue darken-2" role="navigation">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo" id="logo-container">Profil Team</a>
+        <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile">
+          <i class="material-icons">arrow_back</i>
+        </a>
+        <ul class="topnav right hide-on-med-and-down"></ul>
+        <ul class="sidenav" id="nav-mobile"></ul>
+      </div>
+    </nav>
+    
+    <!--Contenct-->
+    <div class="container" id="body-content"></div>
+    
+    <!--FloatingButton-->
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large blue darken-3" id="save">
+        <i class="large material-icons">star</i>
+      </a>
+    </div>
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large blue darken-3" id="hapus">
+        <i class="large material-icons">delete</i>
+      </a>
+    </div>
+
+    <!--Footer-->
+    <footer class="page-footer blue darken-3">
+      <div class="container ">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">English Premier League</h5>
+            <p class="grey-text text-lighten-4">The Premier League, 
+              often referred to as the English Premier League or the EPL outside England, 
+              is the top level of the English football league system. 
+              Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Social Media</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://fb.com/egi3rdian">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://instagram.com/egierdian">Instagram</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://Twitter.com/ErdianEGI">Twitter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container center">
+        © 2020 Copyright Egi Erdian
+        </div>
+      </div>
+    </footer>
+
+    </div>
+    <!--end content-->
+
+    <!--preloader-->
+    <div class="container center" id="preloader">
+      <div class="row">
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-blue">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end preloader-->
+
+    <script src="js/materialize.min.js"></script>
+    
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/notification.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/preloader.js"></script>
+
+  </body>
+</html>
