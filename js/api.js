@@ -32,7 +32,7 @@ const getAllTeams = () => {
         caches.match(ENDPOINT_COMPETITION).then(function (response) {
             if (response) {
                 response.json().then(function (data) {
-                    //console.log("Competition Data: " + data);
+                    //console.log("Data: " + data);
                     showTeam(data);
                 })
             }

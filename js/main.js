@@ -35,7 +35,7 @@ if ("serviceWorker" in navigator) {
         console.log("Di klik.");
         item.then(function (article) {
           saveForLater(article);
-          window.location.href = 'index.html'; 
+          //window.location.href = 'index.html'; 
         });
       }
 
@@ -45,7 +45,7 @@ if ("serviceWorker" in navigator) {
         item.then(function(id){
           deleteById(id);
           isFromSaved = false;
-          window.location.href ='index.html';
+          //window.location.href ='index.html';
         })
       }
   });

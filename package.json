@@ -1,0 +1,22 @@
+{
+  "name": "english-football",
+  "version": "1.0.0",
+  "description": "submission 3 at @dicoding",
+  "dependencies": {
+    "web-push": "^3.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egierdian/premierLeague.git"
+  },
+  "author": "Egierdian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egierdian/premierLeague/issues"
+  },
+  "homepage": "https://github.com/egierdian/premierLeague#readme"
+}

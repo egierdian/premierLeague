@@ -1,0 +1,3 @@
+Firebase hosting 	: https://premierleague-3cc92.web.app/
+
+Github 			: https://github.com/egierdian/premierLeague

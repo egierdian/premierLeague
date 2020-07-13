@@ -9,7 +9,7 @@ function saveForLater(article) {
         var tx = db.transaction("team", "readwrite");
         var store = tx.objectStore("team");
         //console.log("hasil");
-        //console.log(article);
+        console.log(article);
         store.put(article);
         return tx.complete;
       })
